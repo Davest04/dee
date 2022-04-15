@@ -1,0 +1,201 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans' sans-serif;
+  font-size: 0.5cm;
+  color: hsl(243, 87%, 12%);
+  background-colo: #3DA08F;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+.dee{
+  align-items: center;
+}
+
+.dee{
+  align-items: center;
+}
+
+.end{
+  display: flex;
+}
+.container {
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1200px;
+  background-color: #fff;
+
+}
+
+.flex {
+  display: flex;
+}
+
+.flex > div {
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex > div:first-child {
+  margin-right: 20px;
+}
+
+.flex > div:last-child {
+  margin-right: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-left: 50px;
+}
+
+nav ul a {
+  font-family: 'Raleway', sans-serif;
+  color: hsl(243, 87%, 12%);
+  text-decoration: none;
+}
+
+form {
+display: flex;
+}
+
+input {
+border: 1px solid hsl(243, 87%, 12%);
+border-radius: 2px;
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-size: 13px;
+padding: 15px;
+flex: 0.6;
+}
+
+input::placeholder {
+  color: hsl(0, 0%, 75%)
+}
+
+button {
+  border: 1px solid hsl(224, 93%, 58%);
+  background-color: hsl(224, 93%, 58%);
+  color: #fff;
+  border-radius: 2px;
+  padding: 15px;
+  flex: 0.3;
+  margin-left: 10px;
+}
+
+.lightest-purple {
+  background-color: hsl(240, 75%, 98%);
+  margin-top: 100px;
+  position: relative;
+  padding: 0;
+}
+
+.lightest-purple::before {
+  content: '';
+  background-image: url('./bg-curve-desktop.svg');
+  background-size: cover;
+  position: absolute;
+  top: -60px;
+  left: 0;
+  height: 60px;
+  width: 100%;
+}
+
+.green {
+  color: #3DA08F;
+}
+
+.testimonial-box {
+  background-color: cyan;
+  padding: 25px;
+  width: 30%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.user-info {
+  display: flex;
+  margin-top: 10px;
+}
+
+.user-info img {
+  border-radius: 50%;
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.user-info h4 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.testimonial-box p {
+  letter-spacing: 1px;
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+.lighter-purple {
+  background-color: hsl(238, 22%, 44%);
+  color: #fff;
+  padding: 50px 0;
+}
+
+.lighter-purple form{
+  flex-direction: column;
+}
+
+.lighter-purple form input {
+  flex: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+
+.lighter-purple button {
+  width: 40%;
+  margin: 20px 0;
+}
+
+.put {
+background-color: hsl(243, 87%, 12%);
+color: #fff;
+padding: 50px 0;
+}
+
+.put ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.put ul li {
+  margin-bottom: 20px;
+}
+
+.flex2 {
+  display: flex;
+}

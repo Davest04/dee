@@ -1,0 +1,1 @@
+alert("Have you followed Dee graphics, You have to follow to continue");
